@@ -1,2 +1,9 @@
-# lc-java
-LeetCode problems
+# Leet Code
+
+## String
+- LongestCommonPrefix
+- ReverseString
+
+## Binary Tree
+- MaximumDepthBinaryTree
+- LowestCommonAncestor
