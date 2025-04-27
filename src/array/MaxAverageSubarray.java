@@ -1,4 +1,4 @@
-package slidingwindow;
+package array;
 
 /**
  * Problem (643)
