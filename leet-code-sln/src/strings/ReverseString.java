@@ -30,9 +30,9 @@ public class ReverseString {
         reverseString(example2);
 
         System.out.println("Reversed string:");
-        for (int i = 0; i < example1.length; i++) System.out.print(example1[i] + " ");
+        for (char c : example1) System.out.print(c + " ");
         System.out.println();
-        for (int i = 0; i < example2.length; i++) System.out.print(example2[i] + " ");
+        for (char c : example2) System.out.print(c + " ");
         System.out.println();
     }
 }

@@ -19,7 +19,7 @@ public class LowestCommonAncestor {
         // base case
         if (root == null) return null;
         if (root == p || root == q) return root;
-        // we hit leaf and we didint found node, return null
+        // we hit leaf, and we didn't find node, return null
         if (root.left == null && root.right == null) return null;
 
         // recursive case
