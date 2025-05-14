@@ -14,7 +14,7 @@ import java.util.List;
  * they will have the greatest number of candies among all the kids, or false otherwise.
  * Note that multiple kids can have the greatest number of candies.
  */
-public class KidsWithGreatesNumberOfCandies {
+public class KidsWithGreatestNumberOfCandies {
 
     public static List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
         List<Boolean> result = new ArrayList<>(candies.length);
@@ -35,19 +35,19 @@ public class KidsWithGreatesNumberOfCandies {
         int[] candies = {2, 3, 5, 1, 3};
         int extraCandies = 3;
         List<Boolean> res = kidsWithCandies(candies, extraCandies);
-        res.stream().forEach(i -> System.out.print(i  + " "));
+        res.forEach(i -> System.out.print(i  + " "));
         System.out.println();
 
         int[] candies2 = {4, 2, 1, 1, 2};
         extraCandies = 1;
         res = kidsWithCandies(candies2, extraCandies);
-        res.stream().forEach(i -> System.out.print(i  + " "));
+        res.forEach(i -> System.out.print(i  + " "));
         System.out.println();
 
         int[] candies3 = {12, 1, 12};
         extraCandies = 10;
         res = kidsWithCandies(candies3, extraCandies);
-        res.stream().forEach(i -> System.out.print(i  + " "));
+        res.forEach(i -> System.out.print(i  + " "));
         System.out.println();
     }
 }

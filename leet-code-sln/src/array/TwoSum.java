@@ -46,7 +46,6 @@ public class TwoSum {
         System.out.println("indexes for given target: " + result[0] + ", " + result[1]);
 
         int[] nums3 = {3, 3};
-        target = 6;
         result = twoSum(nums3, target);
         System.out.println("indexes for given target: " + result[0] + ", " + result[1]);
     }

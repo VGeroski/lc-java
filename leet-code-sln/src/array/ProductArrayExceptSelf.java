@@ -18,7 +18,7 @@ public class ProductArrayExceptSelf {
             result[i] = result[i - 1] * nums[i - 1];
 
         // construct suffix product
-        // we dont need array, variable is enough 
+        // we don't need array, variable is enough
         int suffixProduct = 1;
         for (int i = nums.length - 1; i >= 0; i--) {
             result[i] = result[i] * suffixProduct;
@@ -30,9 +30,8 @@ public class ProductArrayExceptSelf {
 
     public static void printArray(int[] array) {
         System.out.println("Product: ");
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(" " + array[i]);
-        }
+        for (int j : array) System.out.print(" " + j);
+
         System.out.println();
     }
 
